@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url("Imagenes/fondo.jpeg"); 
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed; 
+
+}
+
+header {
+  background: #333333c8;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.secciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.seccion {
+  background: #ffffffd9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: min(360px, 100%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion img {
+  width: 100%;
+  border-radius: 5px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.seccion h2 {
+  margin: 12px 0 8px;
+}
+
+.seccion p {
+  margin: 0;
+  text-align: justify;
+  line-height: 1.35;
+  flex: 1;
+}
+
+.videos {
+  margin: 20px;
+  text-align: center;
+}
+
+.titulo-videos {
+  display: block;
+  width: fit-content;
+  background: #ffffffd9;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 0 auto 14px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.videos video, .videos iframe {
+  width: min(420px, 100%);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+form {
+  background: #ffffffd9;
+  padding: 20px;
+  border-radius: 8px;
+  width: min(420px, 100%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #333;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background: #555;
+}
+
+.contacto {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.gracias {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.gracias-card {
+  background: #ffffffea;
+  width: min(560px, 100%);
+  padding: 28px 26px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #555;
+}

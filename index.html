@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Juegos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>ESTACION ARCADE</h1>
+</header>
+
+<section class="secciones">
+  <div class="seccion">
+    <img src="Imagenes/Diablo3.webp" alt="Diablo 3 Reaper of Souls">
+    <h2>Diablo 3</h2>
+    <p>Los jugadores exploran calabozos, luchan contra hordas de monstruos y consiguen botín (loot) para mejorar sus personajes.
+      Ambientado en Santuario 20 años después de Diablo II, combina combate rápido, progresión constante y un fuerte modo cooperativo.</p>
+  </div>
+
+  <div class="seccion">
+    <img src="Imagenes/Transformice.jpg" alt="Transformice">
+    <h2>Transformice</h2>
+    <p>En una variedad de mapas tienes que encontrar y llevar un trozo de queso y volver al agujero del ratón.
+      Algunos mapas tienen complejos acertijos involucrados que sólo pueden resolverse con la ayuda del todopoderoso chamán, quien es elegido en función de la puntuación más alta.</p>
+  </div>
+
+  <div class="seccion">
+    <img src="Imagenes/gta6.jpg" alt="GTA 6">
+    <h2>GTA VI</h2>
+    <p>Grand Theft Auto VI es un videojuego de acción-aventura en mundo abierto ambientado en el estado ficticio de Leonida.
+      La historia sigue a una pareja criminal, Jason y Lucía, marcando el regreso a un formato de múltiples protagonistas
+      en un entorno inmersivo enfocado en la vida nocturna, bajos fondos y redes sociales.</p>
+  </div>
+</section>
+
+<section class="videos">
+  <h2 class="titulo-videos">TRAILERS DE GAMEPLAY</h2>
+
+  <div class="videos-grid">
+    <video controls>
+      <source src="Videos/Diablo III_ cinemática de introducción de Reaper of Souls.mp4" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
+
+    <video controls>
+      <source src="Videos/Transformice - Official Trailer.mp4" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
+
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/QdBZY2fkU-0"
+      title="GTA VI - Trailer"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<section class="formulario">
+  <form action="agradecimientos.html" method="post">
+    <h2 class="contacto">CONTACTO</h2>
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+</body>
+</html>
